@@ -1,0 +1,93 @@
+/* ===== Reset ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Body ===== */
+body {
+  background-color: #fff8e7;
+  color: #2c2c2c;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  padding: 3rem 2rem;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ===== Headings ===== */
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #b5451b;
+  border-bottom: 4px solid #f4a336;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+h2 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  background-color: #2e86ab;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+}
+
+h3 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #8e44ad;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  max-width: 65ch;
+  margin-bottom: 1rem;
+}
+
+/* ===== Inline text ===== */
+strong {
+  font-weight: 700;
+  color: #b5451b;
+}
+
+em {
+  font-style: italic;
+  color: #2e86ab;
+}
+
+/* ===== Images ===== */
+img {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  border: 4px solid #f4a336;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* ===== Fact cards ===== */
+h3 + p {
+  background-color: #eaf6fb;
+  border: 2px solid #2e86ab;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  box-shadow: 4px 4px 0px #f4a336;
+}
